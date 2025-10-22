@@ -1,0 +1,19 @@
+.\server\.env
+# === General ===
+node_modules/
+.env
+dist/
+build/
+.vscode/
+.DS_Store
+
+# === Client ===
+client/node_modules/
+client/dist/
+client/.env
+
+# === Server ===
+server/node_modules/
+server/logs/
+server/.env
+server/tmp/
