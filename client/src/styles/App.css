@@ -2,14 +2,13 @@
   font-family: 'Inter', sans-serif;
   padding: 2rem;
   width: 100vw;
-  height: auto;
-  margin: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #D6D58E;
-  background: linear-gradient(135deg, #042940, #005C53);
+  background: linear-gradient(90deg, #042940, #005C53);
 };
   
 h1 {
@@ -17,30 +16,3 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-.task-list {
-  list-style: none;
-  padding: 0;
-}
-
-.task-card {
-  background: #f7f8fa;
-  border-radius: 10px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
-}
-
-.task-card:hover {
-  transform: translateY(-2px);
-}
-
-.task-card a {
-  color: #007aff;
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-
-.task-card a:hover {
-  text-decoration: underline;
-}

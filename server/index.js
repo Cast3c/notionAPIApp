@@ -7,11 +7,16 @@ const app = express()
 
 app.use(cors())
 app.use(express.json())
+app.use(express.static('dist'))
+
+app.get('/', (req, res) => {
+  res.send('Servidor TaskApp funcionando correctamente 🚀');
+});
 
 app.use('/api/cierreViajes', notionRoutes)
 
-const PORT = config.PORT || 3001
-app.listen(PORT, () => console.log(`Server listening and connected`))
+const PORT = config.PORT || 3000
+app.listen(PORT, '0.0.0.0', () => console.log(`Server listening and connected`))
 
 
 

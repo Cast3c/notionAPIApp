@@ -2,7 +2,7 @@ import { BookOpen, LogOut } from 'lucide-react'
 import '../styles/Header.css'
 
 function Header({ user, logout }){
-    const tech = ['React', 'Notion API',  'JWT', 'State Management', 'Secure Auth']
+    const tech = ['React', 'Notion API', 'Node.js', 'Express', 'Secure auth', 'Axios']
     // 'OAuth 2.0',
 
     const sesionLoggedIn = ({ user }) => {
